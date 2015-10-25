@@ -24,7 +24,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class Shooter extends Subsystem {
 	DoubleSolenoid piston1 = RobotMap.shooterpiston1;
 	DoubleSolenoid piston2 = RobotMap.shooterpiston2;
-
+int bacon; 
 	@Override
 	public void initDefaultCommand() {
 		// TODO Auto-generated method stub
